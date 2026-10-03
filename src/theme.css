@@ -1,0 +1,377 @@
+:root {
+  --blue-ink: #17324d;
+  --blue: #2878b4;
+  --blue-strong: #1c5e8d;
+  --blue-soft: #e9f4fc;
+  --blue-pale: #f4f9fe;
+  --blue-line: #d6e5f1;
+  --blue-muted: #637d93;
+  --blue-footer: #153b58;
+  --blue-footer-muted: #c3d8e8;
+  color: var(--blue-ink);
+  background: var(--blue-pale);
+}
+
+body {
+  color: var(--blue-ink);
+  background: var(--blue-pale);
+}
+
+::selection {
+  color: var(--blue-ink);
+  background: #cde7f8;
+}
+
+.site-header {
+  border-bottom-color: var(--blue-line);
+  background: #fff;
+}
+
+.brand,
+.admin-heading h1,
+.cart-heading h1,
+.categories-heading h1,
+.detail-copy h1,
+.hero-copy h1,
+.products-page-heading h1,
+.auth-form-wrap h1 {
+  color: var(--blue-ink);
+}
+
+.brand-mark,
+.main-nav a:hover,
+.main-nav a.active,
+.cart-count,
+.demo-label {
+  background: var(--blue-soft);
+}
+
+.brand-mark,
+.main-nav a:hover,
+.main-nav a.active,
+.cart-link,
+.cart-count,
+.sign-in-link,
+.sign-out-button,
+.admin-tabs button.selected {
+  color: var(--blue-strong);
+}
+
+.brand-period,
+.hero-copy h1 span {
+  color: #438fc5;
+}
+
+.main-nav a,
+.header-promise,
+.header-account,
+.product-meta,
+.catalog-count,
+.search-control,
+.detail-rating,
+.detail-stock,
+.detail-brand,
+.auth-intro,
+.cart-heading > span,
+.cart-empty p,
+.cart-item-info p,
+.order-summary > div,
+.department-title-row span,
+.admin-tabs button,
+.admin-table th,
+.admin-demo-note {
+  color: var(--blue-muted);
+}
+
+.sign-in-link,
+.sign-out-button {
+  border-color: #c4d9e9;
+}
+
+.sign-in-link:hover,
+.sign-out-button:hover {
+  border-color: var(--blue);
+  background: var(--blue-soft);
+}
+
+.site-footer {
+  background: var(--blue-footer);
+  color: #edf6fc;
+}
+
+.footer-brand-block p,
+.footer-bottom {
+  color: var(--blue-footer-muted);
+}
+
+.footer-brand span {
+  color: #8bc6eb;
+}
+
+.footer-links a {
+  color: #e0eef8;
+}
+
+.store-hero,
+.products-page-heading {
+  border-color: #cfe2f1;
+  background-color: #eaf5fd;
+  background-image: repeating-linear-gradient(135deg, transparent 0 14px, rgb(40 120 180 / 4%) 14px 15px);
+}
+
+.eyebrow,
+.all-departments-link,
+.department-copy > a,
+.home-department-arrow,
+.back-to-shop,
+.continue-shopping,
+.auth-switch a,
+.product-details-link,
+.order-summary .summary-total strong {
+  color: var(--blue-strong);
+}
+
+.hero-description,
+.products-page-heading p:last-child,
+.home-department-copy > span,
+.detail-description,
+.catalog-message,
+.auth-switch,
+.auth-demo-note,
+.department-copy p {
+  color: var(--blue-muted);
+}
+
+.hero-link,
+.pagination button:hover:not(:disabled),
+.pagination button.current-page,
+.error-message button,
+.auth-submit,
+.add-to-cart-button,
+.admin-add-button {
+  border-color: var(--blue-strong);
+  background: var(--blue-strong);
+  color: #fff;
+}
+
+.hero-link:hover,
+.auth-submit:hover:not(:disabled),
+.add-to-cart-button:hover:not(:disabled),
+.admin-add-button:hover:not(:disabled) {
+  background: #164b73;
+}
+
+.hero-note,
+.home-department,
+.product-card,
+.search-control,
+.select-control,
+.pagination button,
+.product-detail,
+.auth-page,
+.cart-empty,
+.cart-item,
+.order-summary,
+.department-card,
+.admin-toolbar,
+.admin-form,
+.admin-table-wrap {
+  border-color: var(--blue-line);
+  background-color: #fff;
+}
+
+.home-department:hover,
+.product-card:hover {
+  border-color: #a8cce4;
+}
+
+.hero-note {
+  color: var(--blue-ink);
+}
+
+.hero-note span,
+.product-category,
+.product-rating,
+.product-title,
+.catalog-title,
+.cart-empty-title,
+.cart-item-title,
+.order-summary-title,
+.department-name,
+.admin-form-title,
+.product-info h3 {
+  color: var(--blue-ink);
+}
+
+.search-control:focus-within,
+.select-control:focus-within,
+.auth-form input:focus {
+  border-color: #6aa8d2;
+  outline-color: rgb(40 120 180 / 16%);
+  box-shadow: 0 0 0 3px rgb(40 120 180 / 12%);
+}
+
+.search-icon,
+.search-control input,
+.select-control select,
+.auth-form input,
+.admin-search input,
+.admin-fields input,
+.admin-fields select {
+  color: #29465f;
+}
+
+.search-control input::placeholder {
+  color: #8298aa;
+}
+
+.product-image,
+.detail-image,
+.cart-item > img,
+.admin-product-cell img {
+  background: #eff6fc;
+}
+
+.product-price,
+.detail-price,
+.cart-item-info strong {
+  color: var(--blue-strong);
+}
+
+.product-details-link {
+  border-top-color: #e3edf5;
+}
+
+.product-details-link:hover,
+.back-to-shop:hover,
+.all-departments-link:hover,
+.department-copy > a:hover {
+  color: #164b73;
+}
+
+.pagination button,
+.quantity-control button,
+.admin-cancel-button,
+.admin-row-actions button {
+  border-color: #d3e3ef;
+  color: var(--blue-strong);
+}
+
+.detail-rating span,
+.product-rating span {
+  color: #d99a36;
+}
+
+.auth-form label,
+.admin-fields label {
+  color: #36546e;
+}
+
+.auth-form input,
+.admin-search input,
+.admin-fields input,
+.admin-fields select {
+  border-color: #d3e3ef;
+}
+
+.quantity-control button:hover,
+.admin-cancel-button:hover,
+.admin-row-actions button:hover {
+  background: var(--blue-soft);
+}
+
+.order-summary .summary-total {
+  border-top-color: #e1ebf3;
+  color: var(--blue-ink);
+}
+
+.demo-label {
+  color: var(--blue-strong);
+}
+
+.admin-tabs button.selected {
+  border-bottom-color: var(--blue-strong);
+}
+
+.admin-add-button {
+  border-color: var(--blue-strong);
+}
+
+.admin-table th {
+  background: #f2f7fc;
+}
+
+.admin-table th,
+.admin-table td,
+.admin-table tr:last-child td {
+  border-bottom-color: #e5eef5;
+}
+
+.admin-table td:first-child,
+.admin-form-title {
+  color: #2a4963;
+}
+
+.app-toast {
+  width: min(390px, calc(100vw - 32px));
+  min-height: 54px;
+  padding: 12px 14px;
+  position: fixed;
+  z-index: 1200;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  border: 1px solid var(--blue-line);
+  border-left: 4px solid var(--blue);
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgb(23 50 77 / 16%);
+  color: var(--blue-ink);
+  font-size: 13px;
+  font-weight: 600;
+  animation: toast-enter 160ms ease-out;
+}
+
+.app-toast.error {
+  border-left-color: #b64040;
+}
+
+.app-toast button {
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--blue-muted);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.app-toast button:hover {
+  background: var(--blue-soft);
+  color: var(--blue-strong);
+}
+
+@keyframes toast-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 620px) {
+  .app-toast {
+    right: 16px;
+    bottom: 16px;
+  }
+}

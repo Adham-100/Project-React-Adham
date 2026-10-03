@@ -69,11 +69,7 @@ export function Home() {
     <main className="store-page home-page">
       <section className="store-hero" aria-labelledby="store-title">
         <div className="hero-copy">
-          <p className="eyebrow">GOOD FOOD, GOOD MOOD</p>
           <h1 id="store-title">Your everyday shop, made <span>easy.</span></h1>
-          <p className="hero-description">
-            Find something fresh for the fridge, the pantry, and everything in between.
-          </p>
           <Link className="hero-link" to="/products">
             Browse all products <span aria-hidden="true">&rarr;</span>
           </Link>

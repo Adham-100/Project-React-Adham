@@ -51,6 +51,7 @@
 }
 
 .hero-link {
+	margin-top: 24px;
 	min-height: 44px;
 	padding: 0 17px;
 	display: inline-flex;

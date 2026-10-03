@@ -76,8 +76,8 @@ export function Home() {
         </div>
         <div className="hero-image-wrap">
           <img
-            src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1000&q=85"
-            alt="Fresh colorful produce at a market"
+            src="https://images.pexels.com/photos/5498233/pexels-photo-5498233.jpeg"
+            alt="People shopping at a farmers market"
           />
           <div className="hero-note"><strong>Good picks.</strong><span>Every single day.</span></div>
         </div>

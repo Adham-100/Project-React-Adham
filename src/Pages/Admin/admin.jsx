@@ -588,7 +588,6 @@ export function AdminDashboard() {
         )}
       </div>
       )}
-      {activeTab !== 'overview' && <p className="admin-demo-note">Products and orders are saved in this browser. DummyJSON itself does not permanently save its demo writes.</p>}
     </main>
   )
 }

@@ -349,7 +349,6 @@ export function AdminDashboard() {
           <p className="eyebrow">ADHAM'S MARKET OPERATIONS</p>
           <h1>Dashboard</h1>
         </div>
-        <span className="demo-label">Demo data</span>
       </div>
 
       <div className="admin-toolbar">
